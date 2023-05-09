@@ -1,0 +1,31 @@
+
+:root {
+  /* Flex */
+  --d-flex : flex;
+
+  --flex-al-center : center;
+  --flex-al-start : flex-start;
+  --flex-al-end : flex-end;
+
+  --justify-start : start;
+  --justify-center : center;
+  --justify-end : end;
+  --justify-around : space-around;
+  --justify-evenly : space-evenly;
+  --justify-between : space-between;
+
+}
+
+.d-flex { display: var(--d_flex); }
+
+.flex-al-center { align-items: var(--flex-al-center); }
+.flex-al-start { align-items: var(--flex-al-start); }
+.flex-al-end { align-items: var(--flex-al-end); }
+
+.flex-justify-end { justify-content: var(--flex-al-end); }
+.flex-justify-center { justify-content: var(--flex-al-center); }
+.flex-justify-start { justify-content: var(--flex-al-start); }
+
+.flex-justify-between { justify-content: var(--justify-between); }
+.flex-justify-around { justify-content: var(--justify-around); }
+.flex-justify-evenly { justify-content: var(--justify-evenly); }

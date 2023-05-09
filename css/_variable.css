@@ -1,0 +1,72 @@
+/* CDN  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Var  */
+:root {
+
+  --base_font :  var(--primary_font); /* Optional Font and Use Base Font */
+  --primary_font : 'Ubuntu', sans-serif; /* Like Heading and Mean Tittle */
+  --secondary_font : 'Roboto', sans-serif; /* Like Content */
+
+  /* COLOR  */
+
+  --primary_color : #0D6EFD;
+  --secondary_color : #595C5F;
+  --dark_color : #000000;
+  --light_color : #E9ECEF;
+  --white_color : #ffffff;
+  --black_color : #000000;
+  --transparent : transparent;
+
+
+  
+  --font_weight_100 : 100; 
+  --font_weight_200 : 200; 
+  --font_weight_300 : 300; 
+  --font_weight_400 : 400; 
+  --font_weight_500 : 500; 
+  --font_weight_600 : 600; 
+  --font_weight_700 : 700; 
+  --font_weight_800 : 800; 
+  --font_weight_900 : 900; 
+
+  --font_style_italic  : italic; 
+
+
+
+
+
+
+
+  --flex_direction_col: column;
+
+
+
+
+
+  --li_style : none;
+  --text_decoration : none;
+
+
+
+  --fill_100: 100%;
+
+
+  /* ALL REPUDIATE VAR  */
+  --font_size : 16px;
+  --line_height : 1;
+  --letter_spacing : normal;
+  --word_spacing : normal;
+  --color : var(--primary_color);
+  --font_weight : var(--font_weight_400);
+
+
+
+
+  /* Header Global */
+  --header-nav-line : 1px solid var(--black_color);
+  --header-background : var(--white_color);
+
+
+
+}

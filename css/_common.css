@@ -1,0 +1,39 @@
+html {
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+      scroll-behavior: smooth;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* Base Font  */
+  font-family: var(--base_font);
+  font-size: var(--base_size);  /* Base size Html  */
+  font-weight: var(--);
+  line-height: 1;
+  color: var(--primary_color);
+  -webkit-text-size-adjust: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
